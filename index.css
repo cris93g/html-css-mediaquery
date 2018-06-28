@@ -1,0 +1,91 @@
+body {
+  background-image: url("https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg");
+}
+header {
+  height: 100px;
+  font-size: 0.95em;
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  display: flex;
+
+  margin-right: 20%;
+}
+.title {
+  margin-left: 15%;
+}
+.one {
+  margin-right: 6%;
+  color: white;
+}
+
+.two {
+  margin-right: 6%;
+  color: white;
+}
+.three {
+  margin-right: 6%;
+  color: white;
+}
+
+.four {
+  margin-right: 6%;
+  color: white;
+}
+
+.five {
+  margin-right: 6%;
+  color: white;
+}
+main {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+.button {
+  font-size: 1.5em;
+  width: 7%;
+  height: 10%;
+  color: white;
+}
+
+@media (min-width: 990px) {
+  .link {
+    display: inline;
+  }
+  .menu {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+}
+
+@media (max-width: 990px) {
+  .navi {
+    display: none;
+  }
+  .menu {
+    display: inline;
+    color: white;
+  }
+}
+.title {
+  color: yellow;
+}
+
+/* 768 breaks */
